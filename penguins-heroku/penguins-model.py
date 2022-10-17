@@ -4,7 +4,7 @@ import pickle
 
 
 # Reading the cleaned csv into a dataframe
-df1=pd.read_csv(r'/home/anvit/Projects/penguins-heroku/penguins_cleaned.csv')
+df1=pd.read_csv(r'https://github.com/foxtrot20/Projects_Convergytics/blob/master/penguins-heroku/penguins_cleaned.csv')
 df1.head()
 
 # Mapping the target
@@ -39,5 +39,5 @@ obj.fit(X,Y)
 
 # Dumping the model object into a pickle file
 
-pickle.dump(obj, open('/home/anvit/Projects/penguins-heroku/penguins_obj.pkl', 'wb'))
+pickle.dump(obj, open('penguins_obj.pkl', 'wb'))
 
