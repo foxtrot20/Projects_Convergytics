@@ -10,7 +10,7 @@ st.header("Palmer Penguins Prediction App")
 
 # Read penguins CSV file
 
-df1=pd.read_csv(r'/home/anvit/Projects/penguins-heroku-self/penguins_cleaned.csv')
+df1=pd.read_csv(r'https://github.com/foxtrot20/Projects_Convergytics/blob/master/penguins-heroku/penguins_cleaned.csv')
 df1.head()
 
 
