@@ -4,7 +4,8 @@ import pickle
 
 
 # Reading the cleaned csv into a dataframe
-df1=pd.read_csv(r'https://github.com/foxtrot20/Projects_Convergytics/blob/master/penguins-heroku/penguins_cleaned.csv')
+# Change url to local csv when running locally
+df1=pd.read_csv('https://raw.githubusercontent.com/foxtrot20/Projects_Convergytics/master/penguins-heroku/penguins_cleaned.csv')
 df1.head()
 
 # Mapping the target

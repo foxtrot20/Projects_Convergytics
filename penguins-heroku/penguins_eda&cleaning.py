@@ -4,7 +4,8 @@ import seaborn as sb
 
 #  Reading the csv file
 
-df1=pd.read_csv(r'/home/anvit/Projects/penguins-heroku-self/penguins_size.csv')
+# Change url to local csv when running locally
+df1=pd.read_csv('https://raw.githubusercontent.com/foxtrot20/Projects_Convergytics/master/penguins-heroku/penguins_size.csv')
 df1.head(20)
 
 
@@ -112,6 +113,6 @@ sb.histplot(data=df1, x="body_mass_g", kde=True)
 
 df1.head()
 
-df1.to_csv(r'/home/anvit/Projects/penguins-heroku-self/penguins_cleaned.csv',index=False)
+df1.to_csv(r'/home/anvit/Projects_Convergytics/penguins-heroku/penguins_cleaned.csv',index=False)
 
 
